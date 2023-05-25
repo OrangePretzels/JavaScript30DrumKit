@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+}
+
+button {
+  background-color: black;
+  color: rgb(104, 61, 83);
+  border: solid 2px rgba(218, 165, 32, 0.322);
+  padding: 15px;
+}
+
+.drumKit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  height: 100vh;
+}
+
+.drumButton {
+  width: 100px;
+  height: 100px;
+  border-radius: 0%;
+  background-color: black;
+}
+
+.drumButton:hover {
+  background-color: rgb(0, 0, 0);
+  border: none;
+  color: white;
+  font-size: 2rem;
+}
